@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Mirwaise Khan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Ensures colors print correctly when saving as PDF */
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .section-title {
+            border-bottom: 2px solid #000; /* Solid black underline */
+        }
+        .left-col-title {
+             border-bottom: 2px solid #000; /* Solid black underline */
+        }
+    </style>
+</head>
+<body class="bg-gray-300 flex justify-center items-center p-4">
+
+    <div class="max-w-4xl w-full bg-white shadow-2xl my-8 grid grid-cols-12">
+
+        <!-- Left Column -->
+        <div class="col-span-4 bg-white text-black p-8 border-r border-gray-300">
+            <div class="flex justify-center mb-6">
+                <!-- Image Placeholder: Replace the div below with an img tag -->
+                <div class="w-36 h-36 rounded-full bg-gray-200 flex items-center justify-center border-4 border-white shadow-md">
+                    <span class="text-gray-500 text-center text-xs p-2">Your Photo Here</span>
+                </div>
+            </div>
+            
+            <div class="mt-10">
+                <h3 class="text-sm font-extrabold uppercase tracking-wider text-black left-col-title pb-2 mb-4">Key Achievements</h3>
+                 <h4 class="font-bold text-sm text-black underline">ERC-20 Token Creation</h4>
+                 <p class="text-xs mt-1 text-gray-700">Successfully created and launched a custom ERC-20 token on the Polygon testnet, leveraging OpenZeppelin standards to ensure secure and efficient implementation.</p>
+            </div>
+            
+            <div class="mt-8">
+                <h3 class="text-sm font-extrabold uppercase tracking-wider text-black left-col-title pb-2 mb-4">Languages</h3>
+                <p class="text-sm"><strong>English</strong> - Native</p>
+            </div>
+
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-span-8 p-8">
+             <header class="text-left mb-8">
+                <h1 class="text-5xl font-extrabold tracking-tight text-black">MIRWAISE KHAN</h1>
+                <h2 class="mt-1 text-xl font-medium text-gray-700">Blockchain & Smart Contract Developer</h2>
+                <div class="mt-4 text-xs text-gray-600 flex items-center flex-wrap gap-x-3 gap-y-1">
+                    <span>7810812117</span>
+                    <span>&bull;</span>
+                    <span>nifaskhan098@gmail.com</span>
+                     <span>&bull;</span>
+                    <span>Bengaluru, Karnataka</span>
+                     <span>&bull;</span>
+                    <a href="https://linkedin.com/in/mirwaisekhan" target="_blank" class="hover:text-black underline">linkedin.com/in/mirwaisekhan</a>
+                </div>
+            </header>
+
+            <section>
+                <h3 class="text-base font-extrabold uppercase tracking-wider text-black section-title pb-2 mb-4">Summary</h3>
+                <p class="text-sm text-gray-800">
+                    Driven B.Tech student with a strong passion for the Web3 ecosystem and hands-on experience in developing decentralized applications and deploying tokens. Proven ability to transform complex decentralized ideas into clean and functional code. Actively seeking a challenging internship or entry-level role to contribute skills in smart contract development to an innovative team.
+                </p>
+            </section>
+
+            <section class="mt-6">
+                <h3 class="text-base font-extrabold uppercase tracking-wider text-black section-title pb-2 mb-4">Experience</h3>
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h4 class="text-base font-bold underline">Blockchain & Web3 Intern</h4>
+                        <p class="text-xs font-medium text-gray-500">09/2025 - 10/2025</p>
+                    </div>
+                    <p class="text-sm font-medium text-gray-700">Future Intern Inc. | Bengaluru, Karnataka</p>
+                    <p class="text-xs italic text-gray-500 mt-1">Company focused on providing internships in the blockchain and Web3 ecosystem.</p>
+                    <ul class="mt-2 list-disc list-inside text-sm text-gray-800 space-y-1.5">
+                        <li>Gained a holistic understanding of the decentralized ecosystem by executing projects across smart contract development, API integration, and digital content creation.</li>
+                        <li>Deployed a custom ERC-20 token on the Polygon Mumbai testnet using Remix IDE and OpenZeppelin Contracts.</li>
+                        <li>Engineered a crypto portfolio tracker to monitor asset values in real-time by integrating the CoinGecko API with Google Apps Script.</li>
+                        <li>Designed engaging visual content with Canva to demystify complex crypto topics for a general audience.</li>
+                        <li>Researched emerging DeFi platforms and participated in a live airdrop to understand user acquisition and token distribution models.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="mt-6">
+                <h3 class="text-base font-extrabold uppercase tracking-wider text-black section-title pb-2 mb-4">Education</h3>
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h4 class="text-base font-bold">Bachelor of Technology (B.Tech)</h4>
+                        <p class="text-xs font-medium text-gray-500">08/2022 - 05/2026</p>
+                    </div>
+                    <p class="text-sm font-medium text-gray-700">Rajiv Gandhi Institute of Technology, Bangalore</p>
+                </div>
+            </section>
+
+            <section class="mt-6">
+                <h3 class="text-base font-extrabold uppercase tracking-wider text-black section-title pb-2 mb-4">Skills</h3>
+                 <div class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-800">
+                    <p>&bull; Blockchain</p>
+                    <p>&bull; Solidity</p>
+                    <p>&bull; Smart Contracts</p>
+                    <p>&bull; Ethereum</p>
+                    <p>&bull; Python</p>
+                    <p>&bull; GitHub</p>
+                    <p>&bull; Canva</p>
+                    <p>&bull; Google Apps</p>
+                </div>
+            </section>
+            
+             <section class="mt-6">
+                <h3 class="text-base font-extrabold uppercase tracking-wider text-black section-title pb-2 mb-4">Projects</h3>
+                <div>
+                     <div class="flex justify-between items-baseline">
+                        <h4 class="text-base font-bold underline">Decentralized Applications (dApps)</h4>
+                        <p class="text-xs font-medium text-gray-500">01/2025 - 06/2025</p>
+                    </div>
+                    <p class="text-xs italic text-gray-500 mt-1">dApps involving smart contracts and decentralized functionalities.</p>
+                    <p class="mt-2 text-sm text-gray-800">Developed and deployed smart contracts for a lottery and a crowdfunding platform using Solidity, focusing on implementing core logic and ensuring robust on-chain functionality.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
+
