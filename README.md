@@ -1,5 +1,5 @@
 Hi there, I'm Mirwaise Khan 👋
-Blockchain & Smart Contract Developer
+<u>Blockchain & Smart Contract Developer</u>
 I'm a driven B.Tech student based in Bengaluru, passionate about the Web3 ecosystem. I enjoy building decentralized applications and turning complex ideas into clean, functional code on the blockchain.
 
 🔧 My Tech Stack
@@ -33,7 +33,7 @@ Engineering a real-time crypto portfolio tracker by integrating the CoinGecko AP
 Researching emerging DeFi platforms and token distribution models.
 
 🚀 Key Projects
-Decentralized Applications (dApps)
+<u>Decentralized Applications (dApps)</u>
 Developed and deployed two distinct smart contracts from scratch using Solidity:
 
 Lottery System: A decentralized, on-chain lottery application.
