@@ -32,7 +32,7 @@ Languages: Solidity, Python
 
 Blockchain: Smart Contracts, Ethereum, dApps, ERC-20 Tokens
 
-Tools & Platforms: GitHub, Canva, Google Apps Script, Remix IDE, OpenZeppelin
+Tools & Platforms: GitHub, Canva, Google Apps Script, Remix IDE, OpenZeppelin,Foundry
 </details>
 
 <details>
