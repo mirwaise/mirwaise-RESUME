@@ -1,82 +1,49 @@
-<!-- Animated Banner -->
+<h1 align="center">Hi 👋, I'm Mirwaise khan!</h1>
 
-<p align="center">
-<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3Dauto%26height%3D300%26section%3Dheader%26text%3DMirwaise%2520Khan%26fontSize%3D90%26animation%3DfadeIn%26fontAlignY%3D38%26desc%3DBlockchain%2520%26%2520Smart%2520Contract%2520Developer%26descAlignY%3D51%26descAlign%3D62" alt="Mirwaise Khan Banner"/>
+<h3 align="center">Blockchain Developer | B.Tech Student | Smart Contracts | Web3 | Seeking Internship & Job Opportunities</h3>
+
+<h3 align="left">More About Me:</h3>
+
+- 🌱 I’m currently learning: **smart contract, Solidity, Blockchain Development, Foundry**
+- 🔭 I’m currently working on: **Blockchain,Web3 & Smart Contract Development**
+- 💬 Ask me about: **Blockchain Developer | B.Tech Student | Smart Contracts | Web3 | Seeking Internship & Job Opportunities        Passionate about turning decentralized concepts into practical, functional code. I believe in learning by building, and I'm actively developing hands-on experience in the Web3 ecosystem.  KEY PROJECTS 🛠️   * Decentralized Applications: Developed and deployed smart contracts for a lottery and a crowdfunding platform using Solidity, focusing on core logic and functionality.   * ERC-20 Token Creation: Successfully created and launched my own token on the Polygon testnet, leveraging OpenZeppelin standards for secure and efficient implementation.  MY TECH STACK 💻   * Languages: Solidity, Python   * Concepts: Smart Contracts, DeFi, dApps, EVM, Ethereum Fundamentals   * Tools & Frameworks: Foundry, Remix IDE, GitHub, OpenZeppelin, MetaMask, Foundry   CAREER GOALS 🎯  I am actively seeking internships and entry-level roles where I can contribute to a forward-thinking team and grow my skills. I am also eager to connect with mentors and professionals to learn from their experience.  🔗 Let's connect and discuss the future of decentralization!**
+- 📫 How to reach me: [nifaskhan098@gmail.com](mailto:nifaskhan098@gmail.com)
+- 👨‍💻 **[My Portfolio](https://github.com/mirwaise/FUTURE_BC_07)**
+- 📄 **[My Resume](https://mirwaise.github.io/mirwaise-RESUME/)**
+- ⚡ Fun fact: **I love to play football**
+
+<h3 align="left">Connect with me:</h3>
+<div class="social-icons-wrapper">
+<p style="text-align: left; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+<a href="https://github.com/mirwaise" target="_blank" rel="noreferrer noopener" title="GitHub" class="social-icon-link">
+    <img src="https://cdn.simpleicons.org/github" alt="GitHub" height="35" width="35" style="vertical-align: middle;"/>
+  </a>
+  <a href="https://twitter.com/Mirwaisekhan100" target="_blank" rel="noreferrer noopener" title="Twitter / X" class="social-icon-link">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" alt="Twitter / X" height="35" width="35" style="vertical-align: middle;"/>
+  </a>
+  <a href="https://linkedin.com/in/linkedin.com/in/mirwaisekhan" target="_blank" rel="noreferrer noopener" title="LinkedIn" class="social-icon-link">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="35" width="35" style="vertical-align: middle;"/>
+  </a>
 </p>
+</div>
 
-<!-- Social Media Icons -->
-
-<p align="center">
-<a href="https://www.google.com/search?q=https://linkedin.com/in/mirwaisekhan" target="_blank">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn"/>
-</a>
-<a href="https://mirwaise.github.io/mirwaise-RESUME/" target="_blank">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Portfolio-474747%3Fstyle%3Dfor-the-badge%26logo%3DAbout.me%26logoColor%3Dwhite" alt="Portfolio"/>
-</a>
-<a href="mailto:nifaskhan098@gmail.com">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-D14836%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" alt="Email"/>
-</a>
+<div class="skills-section">
+<h3 align="left">Languages and Tools:</h3>
+<p style="text-align: left; display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+<img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="45" style="vertical-align: middle; margin: 5px;" />
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" height="45" style="vertical-align: middle; margin: 5px;" />
+  <img src="https://cdn.simpleicons.org/linux" alt="Linux" height="45" style="vertical-align: middle; margin: 5px;" />
+  <img src="https://skillicons.dev/icons?i=python" alt="Python" height="45" style="vertical-align: middle; margin: 5px;" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" height="45" style="vertical-align: middle; margin: 5px;" />
 </p>
+</div>
 
-<details>
-<summary>👤 <b>Summary</b></summary>
-<br>
-Driven B.Tech student with a strong passion for the Web3 ecosystem and hands-on experience in developing decentralized applications and deploying tokens. Proven ability to transform complex decentralized ideas into clean and functional code. Actively seeking a challenging role to contribute skills in smart contract development to an innovative team.
-</details>
+<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=mirwaise&show_icons=true&locale=en&theme=dark&count_private=true&hide_border=true" alt="mirwaise's GitHub Stats" /></p>
 
-<details>
-<summary>🔧 <b>Skills & Technologies</b></summary>
-<br>
+<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=mirwaise&locale=en&theme=dark&layout=compact&hide_border=true" alt="Top Languages" /></p>
 
-Languages: Solidity, Python
+<p align="center"><img src="https://streak-stats.demolab.com/?user=mirwaise&theme=dark&hide_border=true" alt="GitHub Streak Stats" /></p>
 
-Blockchain: Smart Contracts, Ethereum, dApps, ERC-20 Tokens
-
-Tools & Platforms: GitHub, Canva, Google Apps Script, Remix IDE, OpenZeppelin,Foundry
-</details>
-
-<details>
-<summary>💻 <b>Professional Experience</b></summary>
-<br>
-<b>Blockchain, Smart Contract & Web3 Intern</b> | <i>Future Intern Inc.</i>
-<br>
-<em>September 2025 – October 2025</em>
-<ul>
-<li>🚀 Deployed custom <b>ERC-20 tokens</b> on the <b>Polygon</b> Mumbai testnet.</li>
-<li>📈 Engineered a real-time crypto portfolio tracker by integrating the <b>CoinGecko API</b>.</li>
-<li>💡 Researched emerging <b>DeFi platforms</b> and token distribution models.</li>
-</ul>
-</details>
-
-<details>
-<summary>🚀 <b>Key Projects</b></summary>
-<br>
-<b>Decentralized Applications (dApps)</b>
-<ul>
-<li>Developed and deployed two distinct smart contracts from scratch using <b>Solidity</b>:
-<ol>
-<li><b>Lottery System:</b> A fully decentralized, on-chain lottery application.</li>
-<li><b>Crowdfunding Platform:</b> A platform for trustless, peer-to-peer fundraising.</li>
-</ol>
-</li>
-</ul>
-</details>
-
-<details>
-<summary>🎓 <b>Education</b></summary>
-<br>
-<b>Bachelor of Technology (B.Tech)</b> | <i>Rajiv Gandhi Institute of Technology, Bengaluru</i>
-<br>
-<em>Expected May 2026</em>
-</details>
-
-🏆 GitHub Trophies
 <p align="center">
-<img src="https://www.google.com/search?q=https://github-profile-trophy.vercel.app/%3Fusername%3Dmirwaise%26theme%3Ddracula%26no-frame%3Dtrue%26column%3D7" alt="GitHub Trophies" />
-</p>
-
-📊 My GitHub Stats
-<p align="center">
-<img height="180em" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dmirwaise%26show_icons%3Dtrue%26hide_border%3Dtrue%26theme%3Ddracula" />
-<img height="180em" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dmirwaise%26layout%3Dcompact%26hide_border%3Dtrue%26theme%3Ddracula" />
+  <img src="https://komarev.com/ghpvc/?username=mirwaise&label=Profile%20views&color=brightgreen&style=flat" alt="Profile Views" />   <a href="https://twitter.com/Mirwaisekhan100" target="_blank" rel="noreferrer noopener"><img src="https://img.shields.io/twitter/follow/Mirwaisekhan100?logo=x&style=social" alt="Follow @Mirwaisekhan100 on Twitter" /></a>   <a href="https://github.com/sponsors/mirwaise" target="_blank" rel="noreferrer noopener"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2?logo=GitHub-Sponsors&style=social" alt="Sponsor @mirwaise" /></a>
 </p>
