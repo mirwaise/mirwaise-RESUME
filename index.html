@@ -15,13 +15,17 @@
         }
         .container {
             max-width: 900px;
+            /* DECREASED PADDING */
+            padding: 1.5rem !important; /* Fixed smaller padding for overall container */
         }
+        
         /* === UNDERLINE FOR HEADINGS (Matching PDF) === */
         .section-title {
             color: #0f172a; /* slate-900 */
             border-bottom: 2px solid #0f172a; /* PDF-style underline */
         }
         /* =========================================== */
+        
         .job-title {
             color: #1e293b; /* slate-800 */
         }
@@ -31,10 +35,13 @@
         .text-muted {
             color: #64748b; /* slate-500 */
         }
+        
+        /* === AGGRESSIVE GAP REDUCTION IN CSS === */
+        /* Very tight line spacing for bullet points */
         ul li {
             position: relative;
             padding-left: 1.5rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0 !important; /* Set margin to zero for list items */
         }
         ul li::before {
             content: '•';
@@ -43,39 +50,23 @@
             color: #38bdf8; /* sky-400 */
         }
 
-        /* === PRINT-ONLY OPTIMIZATION (DECREASING THE GAP FOR 1 PAGE) === */
-        @media print {
-            /* Tighter internal padding on the main white box */
-            .container {
-                padding: 1.25rem !important; /* Slightly less padding */
-                margin-top: 0 !important;
-                margin-bottom: 0 !important;
-            }
-            /* Reduce spacing for header section */
-            .mb-10 {
-                margin-bottom: 0.6rem !important;
-            }
-            /* Reduce spacing between all main sections */
-            .mb-8 {
-                margin-bottom: 0.75rem !important; /* Tighter gap between sections */
-            }
-            /* Reduce space after job/project details */
-            .mb-6 {
-                margin-bottom: 0.5rem !important;
-            }
-            /* Reduce space after main section title */
-            .section-title + .mb-4 {
-                margin-bottom: 0.6rem !important;
-            }
-            /* Tighter line spacing for bullets */
-            ul li {
-                margin-bottom: 0.1rem !important; /* Very tight spacing for bullet points */
-            }
-        }
+        /* Override Tailwind defaults for minimal spacing */
+        /* Reduced header gap */
+        .mb-10 { margin-bottom: 0.5rem !important; } 
+        /* Reduced section-to-section gap (SUMMARY, SKILLS, etc.) */
+        .mb-8 { margin-bottom: 0.75rem !important; }
+        /* Reduced subsection gap (e.g., inside EXPERIENCE) */
+        .mb-6 { margin-bottom: 0.4rem !important; }
+        /* Reduced heading-to-content gap (below section-title) */
+        .mb-4 { margin-bottom: 0.3rem !important; }
+        /* Reduced vertical center gap */
+        .mt-4 { margin-top: 0.15rem !important; }
+        .mt-3 { margin-top: 0.15rem !important; }
+        /* =========================================== */
     </style>
 </head>
 <body class="text-slate-700">
-    <div class="container mx-auto p-6 sm:p-8 md:p-12 bg-white shadow-lg rounded-lg my-8">
+    <div class="container mx-auto bg-white shadow-lg rounded-lg my-8">
 
         <header class="text-center mb-10">
             <h1 class="4xl md:text-5xl font-bold text-slate-900 tracking-tight">MIRWAISE KHAN</h1>
@@ -94,14 +85,12 @@
         </header>
 
         <main>
-            <!-- Summary Section -->
-            <section class="mb-8">
+                        <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">SUMMARY</h2>
                 <p>Driven B.Tech student with a strong passion for the Web3 ecosystem and hands-on experience in developing decentralized applications and deploying tokens. Proven ability to transform complex decentralized ideas into clean and functional code. Actively seeking a challenging internship or entry-level role to contribute skills in smart contract development to an innovative team.</p>
             </section>
 
-            <!-- Skills Section -->
-            <section class="mb-8">
+                        <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">SKILLS</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>
@@ -119,8 +108,7 @@
                 </div>
             </section>
 
-            <!-- Experience Section -->
-            <section class="mb-8">
+                        <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">EXPERIENCE</h2>
                 <div class="mb-6">
                     <div class="flex justify-between flex-wrap">
@@ -139,8 +127,7 @@
                 </div>
             </section>
 
-            <!-- Projects Section -->
-            <section class="mb-8">
+                        <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">PROJECTS</h2>
                 <div>
                     <h3 class="text-lg font-bold job-title">Decentralized Applications (dApps)</h3>
@@ -151,8 +138,7 @@
                 </div>
             </section>
 
-            <!-- Education Section -->
-            <section class="mb-8">
+                        <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">EDUCATION</h2>
                 <div>
                     <h3 class="text-lg font-bold job-title">Bachelor of Technology (B.Tech)</h3>
