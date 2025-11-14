@@ -16,10 +16,12 @@
         .container {
             max-width: 900px;
         }
+        /* === UNDERLINE ADDED HERE === */
         .section-title {
             color: #0f172a; /* slate-900 */
-            border-bottom: 2px solid #0f172a; /* slate-900 */
+            border-bottom: 2px solid #0f172a; /* THIS CREATES THE UNDERLINE */
         }
+        /* ======================== */
         .job-title {
             color: #1e293b; /* slate-800 */
         }
@@ -41,13 +43,81 @@
             color: #38bdf8; /* sky-400 */
         }
 
-        /* === PRINT-ONLY OPTIMIZATION (To decrease gap for 1-page PDF) === */
+        /* === PRINT-ONLY OPTIMIZATION (DECREASING THE GAP) === */
         @media print {
+            /* Tighter internal padding on the main white box */
             .container {
                 padding: 1.5rem !important;
                 margin-top: 0 !important;
                 margin-bottom: 0 !important;
             }
+            /* Reduce spacing for header section */
             .mb-10 {
                 margin-bottom: 0.75rem !important;
             }
+            /* Reduce spacing between all main sections */
+            .mb-8 {
+                margin-bottom: 1rem !important;
+            }
+            /* Reduce space after job/project details */
+            .mb-6 {
+                margin-bottom: 0.5rem !important;
+            }
+            /* Tighter line spacing for bullets */
+            ul li {
+                margin-bottom: 0.15rem !important;
+            }
+            /* Hide Languages section when printing to help fit on 1 page */
+            .languages-section-to-delete {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="text-slate-700">
+    <div class="container mx-auto p-6 sm:p-8 md:p-12 bg-white shadow-lg rounded-lg my-8">
+
+        <header class="text-center mb-10">
+            <h1 class="4xl md:text-5xl font-bold text-slate-900 tracking-tight">MIRWAISE KHAN</h1>
+            <div class="mt-4 flex justify-center items-center flex-wrap gap-x-6 gap-y-2 text-sm text-muted">
+                <span>Bengaluru, Karnataka</span>
+                <span>&bull;</span>
+                <span>7810812117</span>
+                <span>&bull;</span>
+                <a href="mailto:nifaskhan098@gmail.com" class="text-sky-500 hover:text-sky-600">nifaskhan098@gmail.com</a>
+            </div>
+            <div class="mt-3 flex justify-center items-center flex-wrap gap-x-6 gap-y-2 text-sm">
+                <a href="https://linkedin.com/in/mirwaisekhan" target="_blank" class="text-sky-500 hover:text-sky-600">LinkedIn Profile</a>
+                <span>&bull;</span>
+                <a href="https://mirwaise.github.io/mirwaise-RESUME/" target="_blank" class="text-sky-500 hover:text-sky-600">Personal Portfolio</a>
+            </div>
+        </header>
+
+        <main>
+                        <section class="mb-8">
+                <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">SUMMARY</h2>
+                <p>Driven B.Tech student with a strong passion for the Web3 ecosystem and hands-on experience in developing decentralized applications and deploying tokens. Proven ability to transform complex decentralized ideas into clean and functional code. Actively seeking a challenging internship or entry-level role to contribute skills in smart contract development to an innovative team.</p>
+            </section>
+
+                        <section class="mb-8">
+                <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">SKILLS</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="font-semibold text-slate-800 mb-2">Programming Languages</h3>
+                        <p>Solidity, Python</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-800 mb-2">Blockchain Technologies</h3>
+                        <p>Smart Contracts, Ethereum, dApps, ERC-20 Tokens</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-800 mb-2">Tools & Platforms</h3>
+                        <p>GitHub, Canva, Google Apps Script, Remix IDE, OpenZeppelin, **Foundry**</p>
+                    </div>
+                </div>
+            </section>
+
+                        <section class="mb-8">
+                <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">EXPERIENCE</h2>
+                <div class="mb-6">
+                    <div class="flex justify-between flex-wrap">
