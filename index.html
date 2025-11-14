@@ -40,32 +40,6 @@
             left: 0;
             color: #38bdf8; /* sky-400 */
         }
-
-        /* === ONLY APPLIED WHEN PRINTING/SAVING TO PDF (DECREASING THE GAP) === */
-        @media print {
-            /* Tighter internal padding on the main white box */
-            .container {
-                padding: 1.5rem !important;
-                margin-top: 0 !important;
-                margin-bottom: 0 !important;
-            }
-            /* Reduce spacing for header section */
-            .mb-10 {
-                margin-bottom: 0.75rem !important; /* Reducing original mb-10 (2.5rem) */
-            }
-            /* Reduce spacing between all main sections */
-            .mb-8 {
-                margin-bottom: 1rem !important; /* Reducing original mb-8 (2rem) */
-            }
-            /* Reduce space after job/project details */
-            .mb-6 {
-                margin-bottom: 0.5rem !important; /* Reducing original mb-6 (1.5rem) */
-            }
-            /* Tighter line spacing for bullets */
-            ul li {
-                margin-bottom: 0.15rem !important;
-            }
-        }
     </style>
 </head>
 <body class="text-slate-700">
@@ -88,12 +62,14 @@
         </header>
 
         <main>
-                        <section class="mb-8">
+            <!-- Summary Section -->
+            <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">Summary</h2>
                 <p>Driven B.Tech student with a strong passion for the Web3 ecosystem and hands-on experience in developing decentralized applications and deploying tokens. Proven ability to transform complex decentralized ideas into clean and functional code. Actively seeking a challenging internship or entry-level role to contribute skills in smart contract development to an innovative team.</p>
             </section>
 
-                        <section class="mb-8">
+            <!-- Skills Section -->
+            <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">Skills</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>
@@ -111,7 +87,8 @@
                 </div>
             </section>
 
-                        <section class="mb-8">
+            <!-- Experience Section -->
+            <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">Experience</h2>
                 <div class="mb-6">
                     <div class="flex justify-between flex-wrap">
@@ -124,13 +101,16 @@
                         <li>Engineering a crypto portfolio tracker to monitor asset values in real-time by integrating the CoinGecko API with Google Apps Script.</li>
                         <li>Designing 10+ visual assets and infographics with Canva to simplify complex Web3 topics for a general audience.</li>
                         <li>Researching emerging DeFi platforms and participating in live airdrops to understand user acquisition and token distribution models.</li>
-                                                <li><a href="https://github.com/mirwaise/Mirwaise-Internship-Documents/blob/main/MIRWAISE%20KHAN%20Internship%20Certificate%20%20JPG.jpg?raw=true" target="_blank" class="text-sky-500 hover:text-sky-600 font-medium">View Internship Completion Certificate</a>.</li>
-                                                <li><a href="https://github.com/mirwaise/Mirwaise-Internship-Documents/blob/main/MIRWAISE%20KHAN%20LoR_.%20JPG.jpg?raw=true" target="_blank" class="text-sky-500 hover:text-sky-600 font-medium">View Letter of Recommendation (LOR)</a>.</li>
+                        <!-- CERTIFICATE LINK IS NOW CORRECTED to JPG -->
+                        <li><a href="https://github.com/mirwaise/Mirwaise-Internship-Documents/blob/main/MIRWAISE%20KHAN%20Internship%20Certificate%20%20JPG.jpg?raw=true" target="_blank" class="text-sky-500 hover:text-sky-600 font-medium">View Internship Completion Certificate</a>.</li>
+                        <!-- LOR LINK IS NOW CORRECTED to JPG -->
+                        <li><a href="https://github.com/mirwaise/Mirwaise-Internship-Documents/blob/main/MIRWAISE%20KHAN%20LoR_.%20JPG.jpg?raw=true" target="_blank" class="text-sky-500 hover:text-sky-600 font-medium">View Letter of Recommendation (LOR)</a>.</li>
                     </ul>
                 </div>
             </section>
 
-                        <section class="mb-8">
+            <!-- Projects Section -->
+            <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">Projects</h2>
                 <div>
                     <h3 class="text-lg font-bold job-title">Decentralized Applications (dApps)</h3>
@@ -141,7 +121,8 @@
                 </div>
             </section>
 
-                        <section class="mb-8">
+            <!-- Education Section -->
+            <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">Education</h2>
                 <div>
                     <h3 class="text-lg font-bold job-title">Bachelor of Technology (B.Tech)</h3>
@@ -150,6 +131,12 @@
                 </div>
             </section>
             
+            <!-- Languages Section -->
+            <section>
+                <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">Languages</h2>
+                <p>English, Hindi, Bengali</p>
+            </section>
+
         </main>
     </div>
 </body>
