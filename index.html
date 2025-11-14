@@ -16,12 +16,12 @@
         .container {
             max-width: 900px;
         }
-        /* === UNDERLINE ADDED HERE === */
+        /* === UNDERLINE FOR HEADINGS (Matching PDF) === */
         .section-title {
             color: #0f172a; /* slate-900 */
-            border-bottom: 2px solid #0f172a; /* THIS CREATES THE UNDERLINE */
+            border-bottom: 2px solid #0f172a; /* PDF-style underline */
         }
-        /* ======================== */
+        /* =========================================== */
         .job-title {
             color: #1e293b; /* slate-800 */
         }
@@ -43,33 +43,33 @@
             color: #38bdf8; /* sky-400 */
         }
 
-        /* === PRINT-ONLY OPTIMIZATION (DECREASING THE GAP) === */
+        /* === PRINT-ONLY OPTIMIZATION (DECREASING THE GAP FOR 1 PAGE) === */
         @media print {
             /* Tighter internal padding on the main white box */
             .container {
-                padding: 1.5rem !important;
+                padding: 1.25rem !important; /* Slightly less padding */
                 margin-top: 0 !important;
                 margin-bottom: 0 !important;
             }
             /* Reduce spacing for header section */
             .mb-10 {
-                margin-bottom: 0.75rem !important;
+                margin-bottom: 0.6rem !important;
             }
             /* Reduce spacing between all main sections */
             .mb-8 {
-                margin-bottom: 1rem !important;
+                margin-bottom: 0.75rem !important; /* Tighter gap between sections */
             }
             /* Reduce space after job/project details */
             .mb-6 {
                 margin-bottom: 0.5rem !important;
             }
+            /* Reduce space after main section title */
+            .section-title + .mb-4 {
+                margin-bottom: 0.6rem !important;
+            }
             /* Tighter line spacing for bullets */
             ul li {
-                margin-bottom: 0.15rem !important;
-            }
-            /* Hide Languages section when printing to help fit on 1 page */
-            .languages-section-to-delete {
-                display: none !important;
+                margin-bottom: 0.1rem !important; /* Very tight spacing for bullet points */
             }
         }
     </style>
@@ -94,12 +94,14 @@
         </header>
 
         <main>
-                        <section class="mb-8">
+            <!-- Summary Section -->
+            <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">SUMMARY</h2>
                 <p>Driven B.Tech student with a strong passion for the Web3 ecosystem and hands-on experience in developing decentralized applications and deploying tokens. Proven ability to transform complex decentralized ideas into clean and functional code. Actively seeking a challenging internship or entry-level role to contribute skills in smart contract development to an innovative team.</p>
             </section>
 
-                        <section class="mb-8">
+            <!-- Skills Section -->
+            <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">SKILLS</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>
@@ -117,7 +119,48 @@
                 </div>
             </section>
 
-                        <section class="mb-8">
+            <!-- Experience Section -->
+            <section class="mb-8">
                 <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">EXPERIENCE</h2>
                 <div class="mb-6">
                     <div class="flex justify-between flex-wrap">
+                        <h3 class="text-lg font-bold job-title">Blockchain, Smart Contract & Web3 Intern</h3>
+                        <p class="text-muted font-medium">September 2025 – Present</p>
+                    </div>
+                    <p class="company-name font-semibold">Future Intern Inc. | Bengaluru, Karnataka</p>
+                    <ul class="mt-2 list-outside">
+                        <li>Deploying a custom ERC-20 token on the Polygon Mumbai testnet using Remix IDE and OpenZeppelin Contracts.</li>
+                        <li>Engineering a crypto portfolio tracker to monitor asset values in real-time by integrating the CoinGecko API with Google Apps Script.</li>
+                        <li>Designing 10+ visual assets and infographics with Canva to simplify complex Web3 topics for a general audience.</li>
+                        <li>Researching emerging DeFi platforms and participating in live airdrops to understand user acquisition and token distribution models.</li>
+                        <li><a href="#" target="_blank" class="text-sky-500 hover:text-sky-600 font-medium">View Internship Completion Certificate</a>.</li>
+                        <li><a href="#" target="_blank" class="text-sky-500 hover:text-sky-600 font-medium">View Letter of Recommendation (LOR)</a>.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="mb-8">
+                <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">PROJECTS</h2>
+                <div>
+                    <h3 class="text-lg font-bold job-title">Decentralized Applications (dApps)</h3>
+                    <p class="text-muted font-medium">January 2025 – June 2025</p>
+                    <ul class="mt-2 list-outside">
+                        <li>Developed and deployed 2 distinct smart contracts (a lottery and a crowdfunding platform) using Solidity, focusing on implementing core logic and ensuring robust on-chain functionality.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="mb-8">
+                <h2 class="text-xl font-bold uppercase tracking-wider pb-2 mb-4 section-title">EDUCATION</h2>
+                <div>
+                    <h3 class="text-lg font-bold job-title">Bachelor of Technology (B.Tech)</h3>
+                    <p class="company-name font-semibold">Rajiv Gandhi Institute of Technology, Bengaluru</p>
+                    <p class="text-muted font-medium">Expected May 2026</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
